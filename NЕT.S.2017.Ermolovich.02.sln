@@ -1,8 +1,6 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NЕT.S.2017.Ermolovich.02", "NЕT.S.2017.Ermolovich.02\NЕT.S.2017.Ermolovich.02.csproj", "{81B5FD97-FC8C-444C-8DB3-9FCF56FAD29B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicIndexOfArray", "LogicIndexOfArray\LogicIndexOfArray.csproj", "{6E927C44-9BC9-48D1-BC6E-6C88C86EE5F8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicNextBiggerNumber", "LogicNextBiggerNumber\LogicNextBiggerNumber.csproj", "{DECB38AE-DC0B-4B10-89C3-F821C759BCCC}"
@@ -13,16 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexOfArray.NUnit.Tests", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextBiggerNumber.NUnit.Tests", "NextBiggerNumber.NUnit.Tests\NextBiggerNumber.NUnit.Tests.csproj", "{EEAF2F6E-BEE7-40C9-8C19-A71F3EA1B61C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NЕT.S.2017.Ermolovich.02", "LogicInsertNumber\NЕT.S.2017.Ermolovich.02.csproj", "{81B5FD97-FC8C-444C-8DB3-9FCF56FAD29B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{81B5FD97-FC8C-444C-8DB3-9FCF56FAD29B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{81B5FD97-FC8C-444C-8DB3-9FCF56FAD29B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{81B5FD97-FC8C-444C-8DB3-9FCF56FAD29B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{81B5FD97-FC8C-444C-8DB3-9FCF56FAD29B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6E927C44-9BC9-48D1-BC6E-6C88C86EE5F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6E927C44-9BC9-48D1-BC6E-6C88C86EE5F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E927C44-9BC9-48D1-BC6E-6C88C86EE5F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -43,5 +39,9 @@ Global
 		{EEAF2F6E-BEE7-40C9-8C19-A71F3EA1B61C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEAF2F6E-BEE7-40C9-8C19-A71F3EA1B61C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEAF2F6E-BEE7-40C9-8C19-A71F3EA1B61C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B5FD97-FC8C-444C-8DB3-9FCF56FAD29B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B5FD97-FC8C-444C-8DB3-9FCF56FAD29B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B5FD97-FC8C-444C-8DB3-9FCF56FAD29B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B5FD97-FC8C-444C-8DB3-9FCF56FAD29B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

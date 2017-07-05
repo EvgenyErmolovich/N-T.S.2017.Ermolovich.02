@@ -37,7 +37,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NЕT.S.2017.Ermolovich.02\NЕT.S.2017.Ermolovich.02.csproj">
+    <ProjectReference Include="..\LogicInsertNumber\NЕT.S.2017.Ermolovich.02.csproj">
       <Project>{81B5FD97-FC8C-444C-8DB3-9FCF56FAD29B}</Project>
       <Name>NЕT.S.2017.Ermolovich.02</Name>
     </ProjectReference>
