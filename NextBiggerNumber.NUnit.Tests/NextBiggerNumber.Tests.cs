@@ -1,6 +1,5 @@
 ﻿using NUnit.Framework;
 using System;
-
 namespace LogicNextBiggerNumber.NUnit.Tests
 {
 	[TestFixture()]
@@ -17,7 +16,7 @@ namespace LogicNextBiggerNumber.NUnit.Tests
 		[TestCase(1204321, ExpectedResult = 1210234)]
 		[TestCase(10, ExpectedResult = -1)]
 		[TestCase(20, ExpectedResult = -1)]
-		public static int FindNextBiggerNumber_PositiveTests(int number)
+		public int FindNextBiggerNumber_PositiveTests(int number)
 		{
 			return NextBiggerNumber.FindNextBiggerNumber(number);
 		}

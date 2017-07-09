@@ -1,6 +1,5 @@
 ﻿using NUnit.Framework;
 using System;
-
 namespace LogicInsertNumber.NUinit.Tests
 {
 	[TestFixture()]

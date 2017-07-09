@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace LogicIndexOfArray
 {
 	public static class IndexOfArray

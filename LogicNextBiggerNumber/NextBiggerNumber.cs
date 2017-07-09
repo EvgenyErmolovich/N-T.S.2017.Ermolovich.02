@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Diagnostics;
 namespace LogicNextBiggerNumber
 {
 	public static class NextBiggerNumber
@@ -9,10 +9,12 @@ namespace LogicNextBiggerNumber
 		/// </summary>
 		/// <returns>The find.</returns>
 		/// <param name="number">Input number.</param>
-		public static int FindNextBiggerNumber(int number)
+		public static Tuple<int, long> FindNextBiggerNumber(int number)
 		{
+			Stopwatch stopwatch = new Stopwatch();
 			ValidNumber(number);
 			int[] arr = ToArray(number);
+			stopwatch.Start();
 			for (int i = arr.Length - 1; i >= 1; i--)
 			{
 				if (arr[i] > arr[i - 1])
@@ -23,12 +25,12 @@ namespace LogicNextBiggerNumber
 						if (arr[j] > arr[i - 1])
 						{
 							Swap(ref arr[j], ref arr[i - 1]);
-							return ToNumber(arr);
+							return Tuple.Create(ToNumber(arr), stopwatch.ElapsedMilliseconds);
 						}
 					}
 				}
 			}
-			return -1;
+			return Tuple.Create(-1, stopwatch.ElapsedMilliseconds);
 		}
 		/// <summary>
 		/// Converts to array.
